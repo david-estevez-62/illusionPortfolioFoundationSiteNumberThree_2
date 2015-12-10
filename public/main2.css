@@ -22,14 +22,14 @@ hr{
   opacity: 0.2;
 }
 
-form {
+/*form {
   border-radius: 5px;
   background: -webkit-linear-gradient(left, #18222d, #1a2530);
   background: linear-gradient(left, #18222d, #1a2530);
   box-shadow: inset 3px 3px 15px -5px rgba(0, 0, 0, 0.1);
   padding: 2em;
   display: block;
-}
+}*/
 
 [type="submit"] {
   height:0px;
@@ -153,18 +153,14 @@ textarea.active {
   visibility: hidden;
 }
 #btnblock{
-  margin-left: 24%;
-  top: 68%;
-  left: 49.2%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  position: relative;
+  margin-left: 550px;
+  margin-top: 220px;
   z-index: 1;
 }
 #submitbtn{
   background: #1a2530;
   display: inline-block;
-  padding: 0.3em 1em 0.5em;
   cursor: pointer;
   background: -webkit-linear-gradient(left, #18222d, #1a2530);
   background: linear-gradient(left, #18222d, #1a2530);
